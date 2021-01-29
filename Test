@@ -1,0 +1,14 @@
+public class workstation {
+    public static  void main (String args[]){
+        List l = new List();
+        l.add_last(100);
+        l.add_last(-1);
+        l.add_last(23);
+        l.add_last(4);
+        l.printList();
+        System.out.println("");
+        l.mergeSort(l.head);
+        l.printList();
+    }
+
+}
